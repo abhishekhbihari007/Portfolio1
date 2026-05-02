@@ -26,13 +26,13 @@ export function AboutSection() {
         className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 md:p-12"
       >
         <p className="text-lg text-neutral-300 leading-relaxed mb-6">
-          I&apos;m a passionate Full Stack Developer and Freelancer with hands-on experience building end-to-end web applications. I specialize in creating modern, scalable solutions that span from beautiful user interfaces to robust backend systems and cloud infrastructure.
+          I&apos;m a passionate Frontend Developer with hands-on experience building responsive, polished web applications. I specialize in user interface design, performance optimization, and creating seamless interactions using React, TypeScript, and Tailwind CSS.
         </p>
         <p className="text-lg text-neutral-300 leading-relaxed mb-6">
-          Throughout my internships at Bioresearch Community, Zidio Development, and other organizations, I&apos;ve worked on real-world projects including college websites, learning portals, and collaboration platforms. I&apos;m skilled in frontend technologies (React.js, TypeScript, Tailwind CSS), backend development (Node.js, REST APIs, databases), and cloud platforms (Vercel, Render, Google Cloud).
+          During internships at Bioresearch Community, Zidio Development, and other organizations, I delivered frontend work for college websites, learning portals, and collaboration tools. I focus on clean, maintainable UI code, accessible experiences, and strong visual design.
         </p>
         <p className="text-lg text-neutral-300 leading-relaxed">
-          I&apos;m available for freelance projects, consulting opportunities, and full-time positions. Whether you need a complete web application, API development, cloud deployment, or UI/UX improvements, I&apos;m here to help bring your vision to life with clean, maintainable code and modern best practices.
+          I&apos;m available for frontend development roles and freelance work, especially where UI quality, responsive design, and modern web performance matter. I bring modern best practices and a strong dedication to building interfaces that users love.
         </p>
       </motion.div>
     </div>

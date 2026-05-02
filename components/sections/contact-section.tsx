@@ -1,6 +1,7 @@
 "use client"
 
 import React from 'react';
+import Image from 'next/image';
 import { motion } from "framer-motion";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -20,8 +21,7 @@ interface ContactSectionProps {
 
 const defaultSocialLinks = [
   { id: '1', name: 'X', iconSrc: 'https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/x.svg', href: '#x' },
-  { id: '2', name: 'Instagram', iconSrc: 'https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/instagram.svg', href: '#instagram' },
-  { id: '3', name: 'LinkedIn', iconSrc: 'https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg', href: '#linkedin' },
+  { id: '2', name: 'LinkedIn', iconSrc: 'https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg', href: '#linkedin' },
 ];
 
 export function ContactSection({
@@ -110,7 +110,7 @@ export function ContactSection({
                     asChild
                   >
                     <a href={link.href} target="_blank" rel="noopener noreferrer">
-                      <img src={link.iconSrc} alt={link.name} className="h-4 w-4 invert" />
+                      <Image src={link.iconSrc} alt={link.name} width={16} height={16} className="h-4 w-4 invert" />
                     </a>
                   </Button>
                 ))}

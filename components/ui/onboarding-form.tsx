@@ -1,5 +1,6 @@
 // 1. Import dependencies
 import * as React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Upload, Loader2, AtSign } from "lucide-react";
 import { cn } from "@/lib/utils"; // Your utility for merging class names
@@ -76,9 +77,11 @@ const OnboardingForm = React.forwardRef<HTMLDivElement, OnboardingFormProps>(
       >
         {/* Decorative top image */}
         <motion.div variants={FADE_UP_ANIMATION_VARIANTS}>
-          <img
+          <Image
             src={imageSrc}
             alt="Welcome Banner"
+            width={600}
+            height={200}
             className="h-full w-full object-cover"
           />
         </motion.div>

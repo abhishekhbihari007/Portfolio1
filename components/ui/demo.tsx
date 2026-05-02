@@ -27,10 +27,10 @@ export function SplineSceneBasic() {
                 </span>
               </h1>
               <h2 className="text-xl md:text-2xl text-neutral-400 font-semibold mb-4">
-                Full Stack Developer
+                Frontend Developer
               </h2>
               <p className="text-sm md:text-base text-neutral-300 leading-relaxed max-w-lg mb-6">
-                Full Stack Developer & Freelancer specializing in building end-to-end web applications. Skilled in frontend (React, TypeScript), backend (Node.js, APIs), and cloud technologies. Available for freelance projects and consulting opportunities.
+                Frontend Developer specializing in React, TypeScript, Tailwind CSS, and user-centered interface design. Focused on creating responsive, polished web experiences with strong attention to accessibility and performance.
               </p>
               
               <div className="flex flex-wrap gap-3 mb-4">

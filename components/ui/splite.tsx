@@ -1,9 +1,8 @@
 'use client'
 
-import { Suspense, lazy, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Loader2 } from 'lucide-react'
-
-const Spline = lazy(() => import('@splinetool/react-spline'))
+import dynamic from 'next/dynamic'
 
 interface SplineSceneProps {
   scene: string
@@ -20,6 +19,11 @@ function SplineLoadingFallback() {
     </div>
   )
 }
+
+const Spline = dynamic(() => import('@splinetool/react-spline'), { 
+  ssr: false,
+  loading: () => <SplineLoadingFallback />
+})
 
 export function SplineScene({ scene, className }: SplineSceneProps) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -55,12 +59,10 @@ export function SplineScene({ scene, className }: SplineSceneProps) {
 
   return (
     <div ref={containerRef} className="w-full h-full relative">
-      <Suspense fallback={<SplineLoadingFallback />}>
-        <Spline
-          scene={scene}
-          className={className}
-        />
-      </Suspense>
+      <Spline
+        scene={scene}
+        className={className}
+      />
     </div>
   )
 }

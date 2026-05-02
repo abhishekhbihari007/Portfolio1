@@ -14,37 +14,37 @@ const items = [
     id: "01",
     title: "Who am I?",
     content:
-      "I'm Abhishekh Bihari — a Full Stack Developer and Freelancer dedicated to crafting high-performance, user-centric digital solutions that are robust, scalable, and visually compelling.",
+      "I'm Abhishekh Bihari — a Frontend Developer dedicated to crafting high-performance, user-centric web experiences that are visually compelling and intuitive.",
   },
   {
     id: "02",
     title: "My Specialization",
     content:
-      "I specialize in building end-to-end web applications using the modern stack: React, Next.js, and TypeScript on the frontend, with Node.js and scalable database architectures on the backend.",
+      "I specialize in building responsive frontend applications with React, Next.js, and TypeScript, focusing on UI quality, accessibility, and modern performance patterns.",
   },
   {
     id: "03",
     title: "Professional Experience",
     content:
-      "I've honed my skills through impactful internships at organizations like Bioresearch Community and Zidio Development, where I contributed to large-scale platforms, college websites, and real-time collaboration tools.",
+      "I've honed my frontend skills through internships at Bioresearch Community and Zidio Development, delivering polished interfaces for college websites and collaboration platforms.",
   },
   {
     id: "04",
     title: "My Creative Approach",
     content:
-      "For me, development is more than just code — it's about solving real-world problems. I focus on clean architecture, intuitive UI/UX, and seamless performance in every project I undertake.",
+      "For me, development is about creating delightful, easy-to-use interfaces. I focus on clean component architecture, intuitive UI/UX, and fast page interactions.",
   },
   {
     id: "05",
-    title: "Continuous Innovation",
+    title: "Continuous Improvement",
     content:
-      "I am deeply inspired by the evolution of AI and cloud technologies. I constantly integrate modern tools like Vertex AI and Google Cloud to push the boundaries of what's possible in digital experiences.",
+      "I continuously refine frontend experiences by applying modern web standards, performance tuning, and user-focused design principles.",
   },
   {
     id: "06",
     title: "Let's Collaborate",
     content:
-      "Whether you're a startup looking for a MVP or a brand seeking a complete digital overhaul, I'm always open to new challenges. Reach out via email or connect with me on social platforms.",
+      "Whether you need a polished frontend, landing page, or web app UI, I'm open to new frontend challenges. Reach out by email to discuss your project.",
   },
 ];
 

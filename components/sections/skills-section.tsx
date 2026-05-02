@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 // --- Types ---
@@ -14,58 +15,58 @@ interface SkillItem {
 // --- Data (Skills mapped to the testimonial structure) ---
 const skills: SkillItem[] = [
   {
-    name: "React.js",
+    name: "HTML5",
     category: "Frontend",
-    description: "Building dynamic and interactive user interfaces with hooks and component-based architecture.",
-    image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+    description: "Writing semantic, accessible markup for structured and search-friendly web pages.",
+    image: "https://cdn.worldvectorlogo.com/logos/html-1.svg",
   },
   {
-    name: "Next.js",
-    category: "Full Stack",
-    description: "Server-side rendering, static site generation, and optimized performance for modern web apps.",
-    image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+    name: "CSS3",
+    category: "Styling",
+    description: "Creating responsive layouts, polished visual systems, and smooth interface states.",
+    image: "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+  },
+  {
+    name: "JavaScript",
+    category: "Language",
+    description: "Building interactive browser experiences with modern ES6+ patterns and clean DOM logic.",
+    image: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
   },
   {
     name: "TypeScript",
     category: "Language",
-    description: "Ensuring code quality and scalability with strong typing and advanced language features.",
+    description: "Improving frontend reliability and maintainability with type-safe application code.",
     image: "https://cdn.worldvectorlogo.com/logos/typescript.svg",
+  },
+  {
+    name: "React.js",
+    category: "Frontend",
+    description: "Building dynamic user interfaces with reusable components, hooks, and stateful flows.",
+    image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+  },
+  {
+    name: "Next.js",
+    category: "Frontend",
+    description: "Creating optimized React applications with routing, rendering strategies, and performance in mind.",
+    image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
   },
   {
     name: "Tailwind CSS",
     category: "Styling",
-    description: "Rapidly building custom designs with a utility-first CSS framework.",
+    description: "Rapidly building responsive, custom interfaces with utility-first styling.",
     image: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
   },
   {
-    name: "Node.js",
-    category: "Backend",
-    description: "Developing scalable network applications and RESTful APIs using JavaScript on the server.",
-    image: "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
-  },
-  {
-    name: "Express.js",
-    category: "Backend",
-    description: "Fast, unopinionated, minimalist web framework for Node.js backend development.",
-    image: "https://cdn.worldvectorlogo.com/logos/express-109.svg",
-  },
-  {
-    name: "Google Cloud",
-    category: "DevOps",
-    description: "Deploying and managing applications on robust cloud infrastructure with GCP services.",
-    image: "https://cdn.worldvectorlogo.com/logos/google-cloud-1.svg",
-  },
-  {
-    name: "GitHub",
-    category: "Tools",
-    description: "Version control and collaborative development using Git and modern CI/CD workflows.",
-    image: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
-  },
-  {
-    name: "Redux",
-    category: "Frontend",
-    description: "Predictable state container for JavaScript apps, managing complex application logic.",
+    name: "Redux Toolkit",
+    category: "State Management",
+    description: "Managing predictable frontend state for complex screens and interactive application flows.",
     image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+  },
+  {
+    name: "Figma",
+    category: "UI Design",
+    description: "Translating designs into clean, responsive frontend components with strong visual accuracy.",
+    image: "https://cdn.worldvectorlogo.com/logos/figma-icon.svg",
   },
 ];
 
@@ -109,9 +110,11 @@ const SkillsColumn = (props: {
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-4">
                     <div className="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center p-2 ring-1 ring-white/20 group-hover:ring-blue-500/50 transition-all">
-                      <img
+                      <Image
                         src={image}
                         alt={`${name} icon`}
+                        width={48}
+                        height={48}
                         className="h-full w-full object-contain"
                       />
                     </div>
@@ -150,7 +153,7 @@ export function SkillsSection() {
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Skills & Expertise</h2>
         <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent mx-auto"></div>
         <p className="text-neutral-400 mt-6 max-w-lg mx-auto text-lg">
-          A collection of technologies and tools I specialize in to build modern digital experiences.
+          Frontend technologies and design tools I use to build responsive, polished web experiences.
         </p>
       </motion.div>
 

@@ -52,10 +52,10 @@ const experienceItems: BentoItem[] = [
     title: "Zidio Development",
     meta: "Jun '25 - Sep '25",
     description:
-      "Full-stack development on realtime collaboration utilities, improved architecture, and code quality.",
+      "Frontend development on realtime collaboration utilities, improved UI interactions, and polished interface behavior.",
     icon: <Video className="w-5 h-5 text-purple-400" />,
-    status: "Full Stack",
-    tags: ["Node.js", "APIs"],
+    status: "Frontend",
+    tags: ["React", "UI"],
   },
   {
     title: "SmartBridge Indonesia",

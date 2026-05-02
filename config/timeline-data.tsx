@@ -35,7 +35,7 @@ export const timelineData: TimelineEntry[] = [
     content: (
       <div>
         <p className="text-neutral-300 dark:text-neutral-300 text-xs md:text-sm font-normal mb-8">
-          Started my journey as a Full Stack Developer, working on various projects and learning new technologies.
+          Started my journey as a Frontend Developer, working on modern web interfaces and learning new frontend technologies.
         </p>
         <p className="text-neutral-300 dark:text-neutral-300 text-xs md:text-sm font-normal mb-8">
           Gained experience in React.js, TypeScript, Node.js, and cloud platforms while working on real-world applications.
