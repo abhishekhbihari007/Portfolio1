@@ -76,7 +76,7 @@ export default function ResumePage() {
                       <p className="text-base font-semibold text-white">Bioresearch Community</p>
                       <p className="text-sm text-slate-400">Frontend Developer Intern • Bengaluru / Remote</p>
                     </div>
-                    <span className="text-sm text-slate-500">Sep 2025 – Present</span>
+                    <span className="text-sm text-slate-500">Sep 2025 – Apr 2026</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
                     <li>Contributed to company platforms IGT (College Website) and ProLearn (Learning Portal) using React.js, TypeScript, and Tailwind CSS.</li>

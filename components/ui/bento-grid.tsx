@@ -30,7 +30,7 @@ interface BentoGridProps {
 const experienceItems: BentoItem[] = [
   {
     title: "Bioresearch Community",
-    meta: "Sep '25 - Jan '26",
+    meta: "Sep '25 - Apr '26",
     description:
       "Frontend Developer Intern building scalable portals (ProLearn, IGT) with React, TypeScript, and Tailwind.",
     icon: <Briefcase className="w-5 h-5 text-amber-400" />,
