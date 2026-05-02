@@ -40,9 +40,11 @@ export default function ResumePage() {
                 <h1 className="mt-4 text-4xl font-semibold text-white sm:text-5xl">Abhishekh Bihari</h1>
                 <div className="mt-4 flex flex-col gap-2 text-sm text-slate-300 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
                   <span>+91-9508903921</span>
-                  <span>abhishekhbihari007@gmail.com</span>
-                  <span>abhishekhbihari007</span>
-                  <span>Greater Noida, UP, India</span>
+                  <span>abhishekhbihari07@gmail.com</span>
+                  <span>Greater Noida, Uttar Pradesh, India</span>
+                  <a className="text-blue-300 hover:text-blue-200" href="https://www.linkedin.com/in/abhishekh-bihari-5532ba250" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                  <a className="text-blue-300 hover:text-blue-200" href="https://github.com/abhishekhbihari007" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a className="text-blue-300 hover:text-blue-200" href="https://portfolio1-rho-woad.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
                 </div>
               </div>
               <a
@@ -57,10 +59,10 @@ export default function ResumePage() {
 
             <section className="mb-10">
               <div className="mb-4 border-l-4 border-slate-500 pl-4">
-                <h2 className="text-2xl font-semibold text-white">Objective</h2>
+                <h2 className="text-2xl font-semibold text-white">Professional Summary</h2>
               </div>
-              <p className="max-w-3xl text-slate-300 leading-8">
-                Fourth-year Computer Science student building complete, responsive websites and ML-enabled web tools. Experienced in delivering production-ready UI using modern tools and AI-assisted workflows, with a major project focused on a live plant leaf health detection website. Skilled in creating structured, high-performance interfaces with strong emphasis on execution, consistency, and real-world usability.
+              <p className="max-w-4xl text-slate-300 leading-8">
+                Frontend Developer focused on building responsive, high-performance web applications using modern technologies like React and TypeScript. Experienced in delivering production-ready user interfaces with a strong emphasis on speed, usability, and clean design. Skilled in developing structured and scalable UI components, ensuring cross-browser compatibility, and creating seamless user experiences. Seeking an entry-level frontend role to contribute to efficient, user-focused products.
               </p>
             </section>
 
@@ -74,15 +76,14 @@ export default function ResumePage() {
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <p className="text-base font-semibold text-white">Bioresearch Community</p>
-                      <p className="text-sm text-slate-400">Frontend Developer Intern • Bengaluru / Remote</p>
+                      <p className="text-sm text-slate-400">Frontend Developer Intern - Bangalore / Remote</p>
                     </div>
-                    <span className="text-sm text-slate-500">Sep 2025 – Apr 2026</span>
+                    <span className="text-sm text-slate-500">Sep 2025 - Apr 2026</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Contributed to company platforms IGT (College Website) and ProLearn (Learning Portal) using React.js, TypeScript, and Tailwind CSS.</li>
-                    <li>Developed reusable UI components, integrated REST APIs for dashboards and learning modules, and improved component performance.</li>
-                    <li>Delivered complete responsive UI pages including landing sections and multi-page layouts with focus on usability.</li>
-                    <li>Focused on structured layouts, performance optimization, and fast development cycles to meet project timelines.</li>
+                    <li>Delivered responsive UI and reusable React components for IGT and ProLearn platforms, improving page consistency and maintainability.</li>
+                    <li>Integrated REST APIs for dashboards and learning modules, reducing UI load delays and improving performance.</li>
+                    <li>Collaborated with backend and design teams using Agile practices to ensure accessibility and polished UX.</li>
                   </ul>
                 </div>
 
@@ -90,42 +91,42 @@ export default function ResumePage() {
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <p className="text-base font-semibold text-white">Zidio Development</p>
-                      <p className="text-sm text-slate-400">Frontend Developer Intern • Bengaluru / Remote</p>
+                      <p className="text-sm text-slate-400">Full Stack Development Intern - Bengaluru / Remote</p>
                     </div>
-                    <span className="text-sm text-slate-500">Jun 2025 – Sep 2025</span>
+                    <span className="text-sm text-slate-500">Jun 2025 - Sep 2025</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Worked on front- and back-end modules using HTML, CSS, JavaScript and Node.js; implemented API integrations and deployment basics.</li>
-                    <li>Improved frontend architecture for maintainability and created modular components.</li>
-                    <li>Participated in code reviews and testing workflows to support stable delivery.</li>
+                    <li>Built and deployed front-end and back-end modules using HTML, CSS, JavaScript, and Node.js.</li>
+                    <li>Refactored UI components and improved code structure to simplify future maintenance.</li>
+                    <li>Participated in code reviews and QA workflows to increase release stability.</li>
                   </ul>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
-                      <p className="text-base font-semibold text-white">AICTE Edunet Foundation</p>
-                      <p className="text-sm text-slate-400">Front-End Web Development Intern • Remote</p>
+                      <p className="text-base font-semibold text-white">AICTE Edunet Foundation (with IBM SkillsBuild)</p>
+                      <p className="text-sm text-slate-400">Front-End Web Development Intern - Remote</p>
                     </div>
-                    <span className="text-sm text-slate-500">Aug 2025 – Sep 2025</span>
+                    <span className="text-sm text-slate-500">Aug 2025 - Sep 2025</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Completed government-backed front-end training; implemented responsive layouts in HTML5, CSS3 and JavaScript.</li>
-                    <li>Gained understanding of version control, modern workflows, and UI best practices.</li>
+                    <li>Completed practical front-end training in responsive HTML5, CSS3, and JavaScript.</li>
+                    <li>Built polished layouts and practiced version control and modern development workflows.</li>
                   </ul>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
-                      <p className="text-base font-semibold text-white">SmartBridge (Google Cloud)</p>
-                      <p className="text-sm text-slate-400">Virtual Internship • Remote</p>
+                      <p className="text-base font-semibold text-white">SmartBridge (Google Cloud) - Virtual Internship</p>
+                      <p className="text-sm text-slate-400">Generative AI Intern - Remote</p>
                     </div>
-                    <span className="text-sm text-slate-500">Jul 2025 – Sep 2025</span>
+                    <span className="text-sm text-slate-500">Jul 2025 - Sep 2025</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Completed virtual internship on Generative AI using Google Cloud services and Vertex AI concepts.</li>
-                    <li>Explored prompt design, model workflows, and cloud-based deployment strategies.</li>
+                    <li>Completed a virtual Generative AI internship using Google Cloud and Vertex AI concepts.</li>
+                    <li>Explored prompt design and cloud deployment strategies for AI workflows.</li>
                   </ul>
                 </div>
               </div>
@@ -135,58 +136,14 @@ export default function ResumePage() {
               <div className="mb-4 border-l-4 border-slate-500 pl-4">
                 <h2 className="text-2xl font-semibold text-white">Education</h2>
               </div>
-              <div className="space-y-6 text-slate-300">
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">IILM University, Greater Noida</p>
-                      <p className="text-sm text-slate-400">B.Tech in Computer Science</p>
-                    </div>
-                    <span className="text-sm text-slate-500">2022 – 2026</span>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">Patna High School</p>
-                      <p className="text-sm text-slate-400">Senior Secondary</p>
-                    </div>
-                    <span className="text-sm text-slate-500">2019 – 2020</span>
-                  </div>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">Prarambika School</p>
-                      <p className="text-sm text-slate-400">Secondary Education</p>
-                    </div>
-                    <span className="text-sm text-slate-500">2017 – 2018</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section className="mb-10">
-              <div className="mb-4 border-l-4 border-slate-500 pl-4">
-                <h2 className="text-2xl font-semibold text-white">Major Project</h2>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
+              <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6 text-slate-300">
                 <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                   <div>
-                    <p className="text-base font-semibold text-white">LeafSense Plant Leaf Health Detector</p>
-                    <p className="text-sm text-slate-400">Major academic ML project for live plant leaf image diagnosis</p>
+                    <p className="text-base font-semibold text-white">IILM University, Greater Noida</p>
+                    <p className="text-sm text-slate-400">B.Tech in Computer Science</p>
                   </div>
-                  <span className="text-sm text-slate-500">React, TypeScript, Flask, PyTorch, timm, Tailwind</span>
+                  <span className="text-sm text-slate-500">2022 - Expected May 2026</span>
                 </div>
-                <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                  <li>Collaborated with team members to design and build a live web application classifying plant leaf images as Healthy or Diseased using a LeafSense binary dataset derived from PlantVillage.</li>
-                  <li>Constructed dataset preprocessing to map folders with &quot;healthy&quot; to Healthy and symptomatic folders (early_blight, rust, etc.) to Diseased.</li>
-                  <li>Trained EfficientNet-B0 in PyTorch/timm and added a secondary ImageNet-based plant/leaf filter to reject non-plant uploads.</li>
-                  <li>Added Test-Time Augmentation (TTA) and a 50% confidence threshold for stable, actionable predictions.</li>
-                  <li>Created a React + Vite frontend and Flask REST API backend with Pillow / torchvision preprocessing and structured JSON inference output.</li>
-                </ul>
               </div>
             </section>
 
@@ -198,48 +155,59 @@ export default function ResumePage() {
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
-                      <p className="text-base font-semibold text-white">ProLearn - Expert-Led Learning Platform</p>
-                      <p className="text-sm text-slate-400">Modern e-learning platform with structured course catalog</p>
+                      <p className="text-base font-semibold text-white">LeafSense Plant Leaf Health Detector</p>
+                      <p className="text-sm text-slate-400">Team project for live ML-enabled plant health diagnosis</p>
                     </div>
-                    <span className="text-sm text-slate-500">React, TypeScript, Vite, Tailwind CSS</span>
+                    <span className="text-sm text-slate-500">React, TypeScript, Flask, PyTorch, timm, Tailwind</span>
                   </div>
-                  <a className="mt-3 inline-flex text-sm font-medium text-blue-400 hover:text-blue-300" href="https://prolearn.org.in/" target="_blank" rel="noopener noreferrer">Live Site</a>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built a scalable React 18 + TypeScript frontend using Vite for optimized performance.</li>
-                    <li>Developed responsive multi-page UI with structured layouts and polished navigation.</li>
-                    <li>Focused on performance optimization and real-world usability across devices.</li>
+                    <li>Collaborated with team members to deliver a live app that classifies plant leaf images as Healthy or Diseased.</li>
+                    <li>Built dataset preprocessing from PlantVillage images, mapping healthy folders to Healthy and symptomatic folders to Diseased.</li>
+                    <li>Trained EfficientNet-B0 in PyTorch/timm and added an ImageNet-based plant/leaf filter to reject non-plant uploads.</li>
+                    <li>Added Test-Time Augmentation (TTA) and a 50% confidence threshold for stable, actionable predictions.</li>
+                    <li>Built a React + Vite frontend and Flask API backend with Pillow/torchvision preprocessing and structured JSON output.</li>
                   </ul>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
-                      <p className="text-base font-semibold text-white">IGT - Institute Website (React)</p>
-                      <p className="text-sm text-slate-400">Responsive educational institution website</p>
-                    </div>
-                    <span className="text-sm text-slate-500">React, TypeScript, Vite</span>
-                  </div>
-                  <a className="mt-3 inline-flex text-sm font-medium text-blue-400 hover:text-blue-300" href="https://igteu.in/" target="_blank" rel="noopener noreferrer">Live Site</a>
-                  <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built a complete multi-page responsive website showcasing programs and departments.</li>
-                    <li>Used reusable components and structured page layouts for consistency and scalability.</li>
-                    <li>Optimized performance and ensured smooth user experience across devices.</li>
-                  </ul>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">Personal Portfolio Website</p>
-                      <p className="text-sm text-slate-400">Developer portfolio showcasing projects and skills</p>
+                      <p className="text-base font-semibold text-white">AgriDoctor Magazine Website</p>
+                      <p className="text-sm text-slate-400">Content-driven website for agricultural newsletter</p>
                     </div>
                     <span className="text-sm text-slate-500">HTML, CSS, JavaScript</span>
                   </div>
-                  <a className="mt-3 inline-flex text-sm font-medium text-blue-400 hover:text-blue-300" href="https://portfolio-iota-azure-34.vercel.app/" target="_blank" rel="noopener noreferrer">Live Site</a>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built a fully responsive portfolio website with clean UI and structured navigation.</li>
-                    <li>Optimized for fast loading and smooth performance across devices.</li>
-                    <li>Implemented state management and prepared scalable integration for backend APIs.</li>
+                    <li>Built and maintained a content-heavy website with a structured layout and clean UI.</li>
+                    <li>Improved page performance and ensured responsive usability across devices.</li>
+                  </ul>
+                </div>
+
+                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <p className="text-base font-semibold text-white">ProLearn - Expert-Led Learning Platform</p>
+                      <p className="text-sm text-slate-400">E-learning platform with course catalog</p>
+                    </div>
+                    <span className="text-sm text-slate-500">React, TypeScript, Vite, Tailwind CSS</span>
+                  </div>
+                  <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
+                    <li>Built a scalable React 18 + TypeScript frontend optimized for performance.</li>
+                    <li>Delivered responsive multi-page navigation and polished layout structure.</li>
+                  </ul>
+                </div>
+
+                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <p className="text-base font-semibold text-white">IGT Institute Website</p>
+                      <p className="text-sm text-slate-400">Responsive educational website</p>
+                    </div>
+                    <span className="text-sm text-slate-500">React, TypeScript, Vite</span>
+                  </div>
+                  <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
+                    <li>Built a scalable multi-page site using reusable components and clean layout design.</li>
+                    <li>Ensured consistent UX and improved site responsiveness.</li>
                   </ul>
                 </div>
               </div>
@@ -253,43 +221,39 @@ export default function ResumePage() {
                 <div className="space-y-4 text-slate-300">
                   <div>
                     <p className="font-semibold text-white">Programming Languages</p>
-                    <p className="mt-2 text-sm text-slate-300">HTML5, CSS3, JavaScript (ES6+), TypeScript, Java</p>
+                    <p className="mt-2 text-sm text-slate-300">HTML5, CSS3, JavaScript (ES6+), TypeScript, Java, Python</p>
                   </div>
                   <div>
                     <p className="font-semibold text-white">Frameworks / Libraries</p>
-                    <p className="mt-2 text-sm text-slate-300">React.js, Tailwind CSS, Redux Toolkit, Next.js (basic)</p>
+                    <p className="mt-2 text-sm text-slate-300">React.js, Tailwind CSS, Redux Toolkit, Next.js, Flask, PyTorch</p>
                   </div>
                   <div>
                     <p className="font-semibold text-white">Tools & Platforms</p>
-                    <p className="mt-2 text-sm text-slate-300">Git, GitHub, VS Code, Chrome, Vercel, Render</p>
+                    <p className="mt-2 text-sm text-slate-300">Git, GitHub, VS Code, Vercel, Render</p>
                   </div>
                   <div>
                     <p className="font-semibold text-white">Concepts</p>
-                    <p className="mt-2 text-sm text-slate-300">Responsive Design, REST APIs, Component Architecture, UI/UX Fundamentals</p>
+                    <p className="mt-2 text-sm text-slate-300">Responsive Design, REST APIs, Machine Learning, Image Classification, UI/UX Fundamentals</p>
                   </div>
                 </div>
               </div>
 
               <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-6">
                 <div className="mb-4 border-b border-slate-700 pb-4">
-                  <h2 className="text-2xl font-semibold text-white">Certifications & Achievements</h2>
+                  <h2 className="text-2xl font-semibold text-white">Certifications</h2>
                 </div>
                 <ul className="space-y-4 text-slate-300">
                   <li>
-                    <p className="font-semibold text-white">AICTE + IBM SkillsBuild Front-End Web Development</p>
-                    <p className="text-sm text-slate-500">Certificate of Completion • Sep 2025</p>
+                    <p className="font-semibold text-white">AICTE + IBM SkillsBuild</p>
+                    <p className="text-sm text-slate-500">Front-End Web Development - Certificate of Completion - Sep 2025</p>
                   </li>
                   <li>
                     <p className="font-semibold text-white">Google Cloud Generative AI (SmartBridge)</p>
-                    <p className="text-sm text-slate-500">Virtual Internship Completion • Sep 2025</p>
+                    <p className="text-sm text-slate-500">Virtual Internship Completion - Sep 2025</p>
                   </li>
                   <li>
-                    <p className="font-semibold text-white">Zidio Development Frontend Internship Certificate</p>
-                    <p className="text-sm text-slate-500">Oct 2025</p>
-                  </li>
-                  <li>
-                    <p className="font-semibold text-white">NCC B Certificate (Leadership)</p>
-                    <p className="text-sm text-slate-500">Sep 2020</p>
+                    <p className="font-semibold text-white">Zidio Development</p>
+                    <p className="text-sm text-slate-500">Full Stack Internship Certificate - Oct 2025</p>
                   </li>
                 </ul>
               </div>
@@ -297,24 +261,46 @@ export default function ResumePage() {
 
             <section className="mb-10">
               <div className="mb-4 border-l-4 border-slate-500 pl-4">
-                <h2 className="text-2xl font-semibold text-white">Volunteer & Extracurricular</h2>
+                <h2 className="text-2xl font-semibold text-white">Achievements</h2>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                  <p className="text-base font-semibold text-white">NCC - &apos;B&apos; Certificate (Leadership)</p>
+                  <span className="text-sm text-slate-500">Sep 2020</span>
+                </div>
+              </div>
+            </section>
+
+            <section className="mb-10">
+              <div className="mb-4 border-l-4 border-slate-500 pl-4">
+                <h2 className="text-2xl font-semibold text-white">Volunteer Work</h2>
               </div>
               <div className="space-y-6 text-slate-300">
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <p className="text-base font-semibold text-white">NCC Activities</p>
-                  <p className="mt-2 text-sm text-slate-500">National Cadet Corps • Sep 2020</p>
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <p className="text-base font-semibold text-white">NCC Activities</p>
+                      <p className="mt-2 text-sm text-slate-500">National Cadet Corps</p>
+                    </div>
+                    <span className="text-sm text-slate-500">Sep 2020</span>
+                  </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5">
-                    <li>Completed NCC “B” Certificate training; developed discipline and leadership.</li>
+                    <li>Completed NCC &quot;B&quot; Certificate training and developed discipline and leadership.</li>
                     <li>Participated in campus-level drills and social service events.</li>
                   </ul>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <p className="text-base font-semibold text-white">Event Coordinator</p>
-                  <p className="mt-2 text-sm text-slate-500">IILM University • 2025</p>
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                    <div>
+                      <p className="text-base font-semibold text-white">Event Coordinator</p>
+                      <p className="mt-2 text-sm text-slate-500">IILM University</p>
+                    </div>
+                    <span className="text-sm text-slate-500">2025</span>
+                  </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5">
-                    <li>Managed the Job Fair event held at IILM University, coordinating with students, faculty, and visiting companies.</li>
-                    <li>Oversaw scheduling, registrations, and on-day logistics to ensure smooth event execution.</li>
+                    <li>Managed the Job Fair event, coordinating students, faculty, and visitors.</li>
+                    <li>Oversaw scheduling, registration, and on-day logistics for smooth execution.</li>
                   </ul>
                 </div>
               </div>
@@ -322,16 +308,16 @@ export default function ResumePage() {
 
             <section className="rounded-3xl border border-white/10 bg-slate-950/80 p-6">
               <div className="mb-4 border-b border-slate-700 pb-4">
-                <h2 className="text-2xl font-semibold text-white">Additional Information</h2>
+                <h2 className="text-2xl font-semibold text-white">Languages</h2>
               </div>
               <div className="grid gap-6 lg:grid-cols-2">
                 <div>
-                  <p className="font-semibold text-white">Languages</p>
-                  <p className="mt-2 text-slate-300">English (Professional), Hindi (Native)</p>
+                  <p className="font-semibold text-white">English</p>
+                  <p className="mt-2 text-slate-300">Professional proficiency</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-white">Interests</p>
-                  <p className="mt-2 text-slate-300">Travelling, Gaming</p>
+                  <p className="font-semibold text-white">Hindi</p>
+                  <p className="mt-2 text-slate-300">Native proficiency</p>
                 </div>
               </div>
             </section>
