@@ -8,25 +8,25 @@ import Link from "next/link";
  
 export function SplineSceneBasic() {
   return (
-    <div className="w-full h-[600px] relative">
-      <Card className="w-full h-full bg-transparent relative overflow-hidden border-0">
+    <div className="w-full min-h-[600px] md:h-[600px] relative">
+      <Card className="w-full h-full bg-transparent relative border-0">
         
-        <div className="flex h-full relative z-10">
+        <div className="flex flex-col md:flex-row min-h-full relative z-10">
           {/* Left content - Hero Text */}
-          <div className="flex-1 p-8 relative z-20 flex flex-col justify-center">
+          <div className="flex-1 p-6 md:p-8 relative z-20 flex flex-col justify-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               className="space-y-4"
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2">
                 Hi, I&apos;m{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-neutral-300 to-neutral-500">
                   Abhishekh Bihari
                 </span>
               </h1>
-              <h2 className="text-xl md:text-2xl text-neutral-400 font-semibold mb-4">
+              <h2 className="text-lg md:text-2xl text-neutral-400 font-semibold mb-4">
                 Frontend Developer
               </h2>
               <p className="text-sm md:text-base text-neutral-300 leading-relaxed max-w-lg mb-6">
@@ -64,7 +64,7 @@ export function SplineSceneBasic() {
           </div>
 
           {/* Right content - Robot */}
-          <div className="flex-1 relative z-20">
+          <div className="flex-1 relative z-20 min-h-[300px] md:min-h-full">
             <SplineScene 
               scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
               className="w-full h-full"

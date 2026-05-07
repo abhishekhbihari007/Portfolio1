@@ -89,14 +89,14 @@ export function ContactSection({
             transition={{ duration: 0.8 }}
             className="flex flex-col justify-center space-y-8"
           >
-            <h2 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-none tracking-tighter">
+            <h2 className="text-3xl md:text-5xl lg:text-7xl font-black text-white leading-[1.1] tracking-tighter">
               {title}
             </h2>
             <div className="space-y-4">
-              <p className="text-neutral-500 uppercase tracking-widest text-sm font-bold">Mail me at</p>
+              <p className="text-neutral-500 uppercase tracking-widest text-xs md:text-sm font-bold">Mail me at</p>
               <a 
                 href={`mailto:${contactEmail}`} 
-                className="text-2xl md:text-3xl font-bold text-blue-500 hover:text-blue-400 transition-colors"
+                className="text-lg sm:text-2xl md:text-3xl font-bold text-blue-500 hover:text-blue-400 transition-colors break-all sm:break-normal"
               >
                 {contactEmail}
               </a>

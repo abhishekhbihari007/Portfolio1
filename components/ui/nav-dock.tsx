@@ -29,7 +29,7 @@ export function DockNav() {
   }, [hovered]);
 
   return (
-    <nav className="fixed top-5 right-6 z-50" aria-label="Main navigation">
+    <nav className="fixed bottom-5 left-1/2 -translate-x-1/2 md:bottom-auto md:top-5 md:right-6 md:left-auto md:translate-x-0 z-50" aria-label="Main navigation">
       <div className="flex items-center gap-4 rounded-full border border-white/20 bg-black/80 px-4 py-2 shadow-[0_20px_50px_rgba(0,0,0,0.7)] backdrop-blur-2xl">
         {NAV_ITEMS.map((item) => {
           const Icon = item.icon;

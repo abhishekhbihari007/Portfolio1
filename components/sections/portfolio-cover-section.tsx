@@ -16,8 +16,8 @@ export function PortfolioCover() {
     }),
     animate: (i: number) => ({
       opacity: i === 0 ? 1 : Math.abs(i) === 1 ? 0.25 : 0.08,
-      y: i * 60,  
-      x: i * 40,  
+      y: i * (typeof window !== 'undefined' && window.innerWidth < 768 ? 40 : 60),  
+      x: i * (typeof window !== 'undefined' && window.innerWidth < 768 ? 20 : 40),  
       scale: 1,
       transition: {
         duration: 1,
@@ -26,8 +26,8 @@ export function PortfolioCover() {
       },
     }),
     hover: (i: number) => ({
-      y: i * 70, 
-      x: i * 45, 
+      y: i * (typeof window !== 'undefined' && window.innerWidth < 768 ? 45 : 70), 
+      x: i * (typeof window !== 'undefined' && window.innerWidth < 768 ? 25 : 45), 
       opacity: i === 0 ? 1 : Math.abs(i) === 1 ? 0.35 : 0.12,
       transition: {
         duration: 0.4,
@@ -63,7 +63,7 @@ export function PortfolioCover() {
             variants={textVariants}
             className={`
               ${i === 0 ? "relative z-20" : "absolute select-none pointer-events-none z-10"}
-              text-[clamp(4rem,18vw,20rem)] font-black leading-none tracking-tighter
+              text-[clamp(2rem,12vw,20rem)] font-black leading-none tracking-tighter
                 ${shade}
                 ${shadow}
             `}

@@ -11,7 +11,7 @@ const education = {
 
 export function EducationSection() {
   return (
-    <div className="max-w-4xl mx-auto pl-4 lg:pl-20">
+    <div className="max-w-4xl mx-auto px-4 lg:px-8">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -30,9 +30,9 @@ export function EducationSection() {
         transition={{ duration: 0.6, delay: 0.2 }}
         className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 md:p-12"
       >
-        <div className="flex items-center gap-3 mb-4">
-          <GraduationCap className="w-8 h-8 text-white" />
-          <h3 className="text-2xl font-bold text-white">{education.school}</h3>
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mb-4">
+          <GraduationCap className="w-8 h-8 text-white flex-shrink-0" />
+          <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">{education.school}</h3>
         </div>
         <p className="text-xl text-neutral-300 mb-4">{education.degree}</p>
         <div className="flex items-center gap-2 text-neutral-400">

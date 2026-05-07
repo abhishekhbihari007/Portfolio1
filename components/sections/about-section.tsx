@@ -5,7 +5,7 @@ import { SectionBackgroundShapes } from "@/components/ui/section-background-shap
 
 export function AboutSection() {
   return (
-    <div className="max-w-4xl mx-auto relative pl-4 lg:pl-20">
+    <div className="max-w-4xl mx-auto relative px-4 lg:px-8">
       <SectionBackgroundShapes variant="minimal" className="absolute inset-0 -z-10" />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
