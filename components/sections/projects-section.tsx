@@ -6,8 +6,8 @@ import { ProjectOnboardingCard } from "@/components/ui/project-onboarding-card";
 
 const projectImages = [
   "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop",
+  "/projects/prolearn.png",
+  "/projects/igt.png",
 ];
 
 interface Project {
