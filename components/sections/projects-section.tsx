@@ -5,7 +5,7 @@ import { SectionBackgroundShapes } from "@/components/ui/section-background-shap
 import { ProjectOnboardingCard } from "@/components/ui/project-onboarding-card";
 
 const projectImages = [
-  "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070&auto=format&fit=crop",
+  "/projects/leafsense.png",
   "/projects/prolearn.png",
   "/projects/igt.png",
 ];
