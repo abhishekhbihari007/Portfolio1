@@ -62,7 +62,7 @@ export default function ResumePage() {
                 <h2 className="text-2xl font-semibold text-white">Professional Summary</h2>
               </div>
               <p className="max-w-4xl text-slate-300 leading-8">
-                Frontend Developer focused on building responsive, high-performance web applications using modern technologies like React and TypeScript. Experienced in delivering production-ready user interfaces with a strong emphasis on speed, usability, and clean design. Skilled in developing structured and scalable UI components, ensuring cross-browser compatibility, and creating seamless user experiences. Seeking an entry-level frontend role to contribute to efficient, user-focused products.
+                Frontend Developer skilled in React, TypeScript, and Tailwind CSS, with experience building responsive and high-performance web applications. Proficient in creating reusable UI components, integrating REST APIs, and delivering clean, user-friendly interfaces. Seeking an entry-level frontend developer role.
               </p>
             </section>
 
@@ -81,9 +81,8 @@ export default function ResumePage() {
                     <span className="text-sm text-slate-500">Sep 2025 - Apr 2026</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Delivered responsive UI and reusable React components for IGT and ProLearn platforms, improving page consistency and maintainability.</li>
-                    <li>Integrated REST APIs for dashboards and learning modules, reducing UI load delays and improving performance.</li>
-                    <li>Collaborated with backend and design teams using Agile practices to ensure accessibility and polished UX.</li>
+                    <li>Developed responsive user interfaces and reusable React components for the IGT and ProLearn platforms, improving consistency and maintainability.</li>
+                    <li>Integrated REST APIs for dashboards and learning modules, enhancing application performance and reducing loading delays.</li>
                   </ul>
                 </div>
 
@@ -96,37 +95,9 @@ export default function ResumePage() {
                     <span className="text-sm text-slate-500">Jun 2025 - Sep 2025</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built and deployed front-end and back-end modules using HTML, CSS, JavaScript, and Node.js.</li>
-                    <li>Refactored UI components and improved code structure to simplify future maintenance.</li>
-                    <li>Participated in code reviews and QA workflows to increase release stability.</li>
-                  </ul>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">AICTE Edunet Foundation (with IBM SkillsBuild)</p>
-                      <p className="text-sm text-slate-400">Front-End Web Development Intern - Remote</p>
-                    </div>
-                    <span className="text-sm text-slate-500">Aug 2025 - Sep 2025</span>
-                  </div>
-                  <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Completed practical front-end training in responsive HTML5, CSS3, and JavaScript.</li>
-                    <li>Built polished layouts and practiced version control and modern development workflows.</li>
-                  </ul>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">SmartBridge (Google Cloud) - Virtual Internship</p>
-                      <p className="text-sm text-slate-400">Generative AI Intern - Remote</p>
-                    </div>
-                    <span className="text-sm text-slate-500">Jul 2025 - Sep 2025</span>
-                  </div>
-                  <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Completed a virtual Generative AI internship using Google Cloud and Vertex AI concepts.</li>
-                    <li>Explored prompt design and cloud deployment strategies for AI workflows.</li>
+                    <li>Built and deployed web application modules using HTML, CSS, JavaScript, Node.js, and Express.js.</li>
+                    <li>Refactored frontend components and improved code structure to simplify maintenance and scalability.</li>
+                    <li>Participated in code reviews and quality assurance processes to improve application stability.</li>
                   </ul>
                 </div>
               </div>
@@ -142,7 +113,7 @@ export default function ResumePage() {
                     <p className="text-base font-semibold text-white">IILM University, Greater Noida</p>
                     <p className="text-sm text-slate-400">B.Tech in Computer Science</p>
                   </div>
-                  <span className="text-sm text-slate-500">2022 - Expected May 2026</span>
+                  <span className="text-sm text-slate-500">2022 - 2026</span>
                 </div>
               </div>
             </section>
@@ -156,30 +127,14 @@ export default function ResumePage() {
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <p className="text-base font-semibold text-white">LeafSense Plant Leaf Health Detector</p>
-                      <p className="text-sm text-slate-400">Team project for live ML-enabled plant health diagnosis</p>
+                      <p className="text-sm text-slate-400">ML-enabled plant health diagnosis platform</p>
                     </div>
-                    <span className="text-sm text-slate-500">React, TypeScript, Flask, PyTorch, timm, Tailwind</span>
+                    <span className="text-sm text-slate-500">React, TypeScript, Flask, PyTorch, Tailwind CSS</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Collaborated with team members to deliver a live app that classifies plant leaf images as Healthy or Diseased.</li>
-                    <li>Built dataset preprocessing from PlantVillage images, mapping healthy folders to Healthy and symptomatic folders to Diseased.</li>
-                    <li>Trained EfficientNet-B0 in PyTorch/timm and added an ImageNet-based plant/leaf filter to reject non-plant uploads.</li>
-                    <li>Added Test-Time Augmentation (TTA) and a 50% confidence threshold for stable, actionable predictions.</li>
-                    <li>Built a React + Vite frontend and Flask API backend with Pillow/torchvision preprocessing and structured JSON output.</li>
-                  </ul>
-                </div>
-
-                <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
-                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-base font-semibold text-white">AgriDoctor Magazine Website</p>
-                      <p className="text-sm text-slate-400">Content-driven website for agricultural newsletter</p>
-                    </div>
-                    <span className="text-sm text-slate-500">HTML, CSS, JavaScript</span>
-                  </div>
-                  <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built and maintained a content-heavy website with a structured layout and clean UI.</li>
-                    <li>Improved page performance and ensured responsive usability across devices.</li>
+                    <li>Developed a web application to classify plant leaf images as Healthy or Diseased using EfficientNet-B0.</li>
+                    <li>Built a React frontend and Flask API backend with image preprocessing and structured JSON output.</li>
+                    <li>Added confidence thresholding and plant-image filtering for more reliable predictions.</li>
                   </ul>
                 </div>
 
@@ -192,22 +147,21 @@ export default function ResumePage() {
                     <span className="text-sm text-slate-500">React, TypeScript, Vite, Tailwind CSS</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built a scalable React 18 + TypeScript frontend optimized for performance.</li>
-                    <li>Delivered responsive multi-page navigation and polished layout structure.</li>
+                    <li>Built a scalable frontend with responsive multi-page navigation and reusable components.</li>
+                    <li>Optimized layout and performance for a smooth user experience across devices.</li>
                   </ul>
                 </div>
 
                 <div className="rounded-2xl border border-white/10 bg-slate-950/80 p-6">
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
                     <div>
-                      <p className="text-base font-semibold text-white">IGT Institute Website</p>
-                      <p className="text-sm text-slate-400">Responsive educational website</p>
+                      <p className="text-base font-semibold text-white">AgriDoctor Magazine Website</p>
+                      <p className="text-sm text-slate-400">Content-driven agricultural newsletter website</p>
                     </div>
-                    <span className="text-sm text-slate-500">React, TypeScript, Vite</span>
+                    <span className="text-sm text-slate-500">HTML, CSS, JavaScript</span>
                   </div>
                   <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
-                    <li>Built a scalable multi-page site using reusable components and clean layout design.</li>
-                    <li>Ensured consistent UX and improved site responsiveness.</li>
+                    <li>Built and maintained a responsive content-rich website with improved page performance.</li>
                   </ul>
                 </div>
               </div>
@@ -246,10 +200,6 @@ export default function ResumePage() {
                   <li>
                     <p className="font-semibold text-white">AICTE + IBM SkillsBuild</p>
                     <p className="text-sm text-slate-500">Front-End Web Development - Certificate of Completion - Sep 2025</p>
-                  </li>
-                  <li>
-                    <p className="font-semibold text-white">Google Cloud Generative AI (SmartBridge)</p>
-                    <p className="text-sm text-slate-500">Virtual Internship Completion - Sep 2025</p>
                   </li>
                   <li>
                     <p className="font-semibold text-white">Zidio Development</p>
